@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dec39cfd-5085-4dbf-8836-ba36cf8519a8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-programming-fundamentals.iml" afterDir="false" />
+    <list default="true" id="dec39cfd-5085-4dbf-8836-ba36cf8519a8" name="Changes" comment="These are my assignments for Week one.">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/Beaute/conditional/ShopDiscount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/Beaute/game/RockPaperScissors.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/Beaute/math/PrintEvenNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/Beauteloop/Clock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/Beauteloop/CountingChart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/Beauteloop/Square.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +19,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -37,18 +40,19 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.SimpleCalculator">
-    <configuration name="AddTwoNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.Beaute.calculator.AddTwoNumbers" />
+  <component name="RunManager" selected="Application.CountingChart">
+    <configuration name="Clock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Beauteloop.Clock" />
       <module name="java-programming-fundamentals" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.Beaute.calculator.*" />
+          <option name="PATTERN" value="com.Beauteloop.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -56,12 +60,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DeclareDataType" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.Beaute.datatype.DeclareDataType" />
+    <configuration name="CountingChart" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Beauteloop.CountingChart" />
       <module name="java-programming-fundamentals" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.Beaute.datatype.*" />
+          <option name="PATTERN" value="com.Beauteloop.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -69,12 +73,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SimpleCalculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.Beaute.calculator.SimpleCalculator" />
+    <configuration name="PrintEvenNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Beaute.math.PrintEvenNumber" />
       <module name="java-programming-fundamentals" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.Beaute.calculator.*" />
+          <option name="PATTERN" value="com.Beaute.math.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -82,12 +86,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SubtractTwoNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.Beaute.calculator.SubtractTwoNumbers" />
+    <configuration name="RockPaperScissors" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Beaute.game.RockPaperScissors" />
       <module name="java-programming-fundamentals" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.Beaute.calculator.*" />
+          <option name="PATTERN" value="com.Beaute.game.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Square" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Beauteloop.Square" />
+      <module name="java-programming-fundamentals" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.Beauteloop.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -97,10 +114,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SimpleCalculator" />
-        <item itemvalue="Application.DeclareDataType" />
-        <item itemvalue="Application.SubtractTwoNumbers" />
-        <item itemvalue="Application.AddTwoNumbers" />
+        <item itemvalue="Application.CountingChart" />
+        <item itemvalue="Application.RockPaperScissors" />
+        <item itemvalue="Application.PrintEvenNumber" />
+        <item itemvalue="Application.Square" />
+        <item itemvalue="Application.Clock" />
       </list>
     </recent_temporary>
   </component>
@@ -113,6 +131,14 @@
       <option name="presentableId" value="Default" />
       <updated>1668730295587</updated>
     </task>
+    <task id="LOCAL-00001" summary="These are my assignments for Week one.">
+      <created>1668895355723</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1668895355723</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -125,5 +151,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="These are my assignments for Week one." />
+    <option name="LAST_COMMIT_MESSAGE" value="These are my assignments for Week one." />
   </component>
 </project>
